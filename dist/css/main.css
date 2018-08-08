@@ -414,7 +414,6 @@ The provided mixins are intended to be used with the array-like variables
 */
 /* Setup */
 /* Mixins */
-/* Mixins */
 /* Base styles */
 /* ==========================================================================
    Base styles
@@ -677,39 +676,6 @@ template {
   display: none !important; }
 
 /* Layout */
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both; }
-
-.container {
-  display: block;
-  width: auto;
-  max-width: calc(1200px + 15px * 2);
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto; }
-  .container::after {
-    display: block;
-    content: "";
-    clear: both; }
-
-.row {
-  display: block;
-  margin-left: -15px;
-  margin-right: -15px; }
-  .row::after {
-    display: block;
-    content: "";
-    clear: both; }
-
-.col {
-  display: block;
-  float: left;
-  padding-right: 15px;
-  padding-left: 15px; }
-
 /* Objects */
 /* Components */
 

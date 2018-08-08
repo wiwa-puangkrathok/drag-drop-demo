@@ -1,0 +1,22 @@
+@mixin element-cover {
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: none;
+  max-height: none;
+}
+
+@mixin element-100 {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin element-absolute-100 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
